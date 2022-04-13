@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <script>
+         let userName = prompt("Nhap ten cua ban:")
+            if(userName=== 'Admin'){
+                let passWord = prompt("Password :")
+                if(passWord==='TheMaster'){
+                    document.write("Welcome.")
+                }
+                else if( passWord === null){
+                    document.write("Canceled")
+                }
+                else{
+                    document.write("Wrong password. ")
+                }
+            }
+            else if( userName=== 'null'){
+                document.write("canceld.")
+            }
+            else{
+                document.write("I don’t know you")
+            }
+     </script>
+</body>
+</html>
